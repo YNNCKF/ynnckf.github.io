@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Cucina Roberto</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<div class="wrapper">
+    <header></header>
+
+    <div class="flex-container">
+        <div class="nav desktop-nav">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="restaurant.html">Restaurant</a> </li>
+                <li><a href="spezial.html">Spezial</a> </li>
+                <li><a href="kontakt.html">Kontakt</a> </li>
+                <li><a href="impressum.html">Impressum</a> </li>
+            </ul>
+        </div>
+
+        <div class="nav mobile-nav">
+            <div class="mobile-nav-dropdown">
+                <div class="mobile-nav-button">
+                    <span>&equiv;</span>
+                </div>
+
+                <div class="mobile-nav-content">
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="restaurant.html">Restaurant</a> </li>
+                        <li><a href="spezial.html">Spezial</a> </li>
+                        <li><a href="kontakt.html">Kontakt</a> </li>
+                        <li><a href="impressum.html">Impressum</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <h1>Kontaktformular</h1>
+            <form action="bestaetigung.html" method="post" target="_blank">
+                <p><label for="name">Name</label></p>
+                <input id="name" type="text" name="name" class="form-style" placeholder="Vorname Nachname"/>
+
+                <p><label for="email">E-Mail</label></p>
+                <input id="email" type="email" name="email" class="form-style" placeholder="E-Mail Adresse"/>
+
+                <p><label for="betreff">Betreff</label></p>
+                <select id="betreff" name="betreff" class="form-style">
+                    <option>Anfrage</option>
+                    <option>Reservierung</option>
+                    <option>Stornierung</option>
+                </select>
+
+                <p><label for="nachricht">Nachricht</label></p>
+                <textarea id="nachricht" name="nachricht" class="form-style-textarea" rows="6" cols="17" maxlength="150"></textarea>
+
+                <p><button type="submit">Senden</button></p>
+
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p class="klein">Yannick Feurle</p>
+    </footer>
+
+</div>
+
+
+
+
+
+</body>
+</html>
