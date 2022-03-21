@@ -131,6 +131,24 @@ h2{
     padding: 10px 10px 5px 10px;
 }
 
+form p{
+    font-weight: bold;
+}
+
+.form-style{
+    width: 150px;
+    height: 25px;
+    margin-left: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+
+}
+
+.form-style-textarea{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
 .desktop-nav{
     display: block;
 }
